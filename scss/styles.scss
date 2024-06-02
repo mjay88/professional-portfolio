@@ -152,10 +152,10 @@ textarea {
 	}
 }
 
-.skateboarding-text {
-	all: unset;
-	color: white;
-	font-size: 0.5em;
+@media (max-width: 480px) {
+	.replaceme {
+		font-size: 2.1rem !important;
+	}
 }
 
 .profile-pic {
