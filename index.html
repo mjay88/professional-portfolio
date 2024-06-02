@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="icon" href="images/favicon-16x16.png" />
+		<!-- <link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+		/> -->
+
+		<title>mjay88's portfolio</title>
+	</head>
+	<body>
+		<!--header-->
+		<header class="header position-relative">
+			<img
+				src="images/vertical-decoration-left.svg"
+				alt=""
+				class="vertical-decoration position-absolute d-none d-md-block"
+			/>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 pt-5">
+						<h1 class="xl-text mt-5">
+							<p>Michael Jarrett -</p>
+							<p>full stack developer</p>
+							<span class="text-primary fw-bold replace-me m-5"
+								>HTML, CSS, BOOTSTRAP, TAILWIND, JAVASCRIPT, REACT, TYPESCRIPT,
+								REDUX, REACT NATIVE, NODE, EXPRESS, SKATEBOARDING</span
+							>
+						</h1>
+						<p class="lead">
+							I love everything about software engineering, and can't wait to
+							learn more...
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!--bio-->
+		<section id="bio" class="bio my-6">
+			<div class="container">
+				<div class="row mb-5">
+					<div
+						class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center"
+					>
+						<h2 class="fw-bold">A little about me...</h2>
+						<img src="images/profile-pic-orange.jpg" class="profile-pic" />
+						<p>
+							Hello, i'm Michael. Currently I am a professional bartender
+							<a href="https://drinkbarrelproof.com/" target="_blank"
+								>at a lovely bar</a
+							>
+							in the great city of New Orleans. I love bartending, most of all
+							because of all the wonderful people I have had the pleasure of
+							meeting on both sides of the bar. It has also allowed me to
+							develop exceptional customer service skills, which I am excited to
+							use in a new industry.
+						</p>
+						<p>
+							Back in 2020, I was accepted to the MBA program for business at
+							the University of New Orleans, and then COVID happened, and my
+							plans changed. I started looking at other paths I could take, and
+							a friend mentioned a local coding boot camp. I was thus introduced
+							to JavaScript and the world of computer programming.
+						</p>
+						<p>
+							Due to having bills to pay, my coding journey has had a few twists
+							and turns, but along the way, I have learned one thing - I love
+							coding. I love the challenge, I love conquering the unknown, and I
+							love the excitement of learning something new every day. In the
+							last year, I gave up a management position and most of my shifts
+							to pursue the next step in my life: becoming a full-stack
+							engineer.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Video -->
+		<section class="video my-6">
+			<div class="container">
+				<div class="row video-points px-6 mt-5">
+					<div class="col-lg-12 d-flex flex-column align-items-center">
+						<h1>
+							<span class="badge fw-bold bg-primary rounded-0 text-uppercase">
+								My Project's
+							</span>
+						</h1>
+						<h4>Here are some quick demos of the projects I have built.</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 mb-4 p-3">
+						<div class="card bg-secondary">
+							<img
+								src="images/bartender-bootcamp-screenshot.PNG"
+								alt=""
+								class="card-img-top"
+							/>
+							<a
+								class="video-btn"
+								data-bs-toggle="modal"
+								data-bs-target="#videoModal"
+								data-bs-src="https://www.youtube.com/embed/CY58m9NuAZQ"
+							>
+								<span class="video-play-button video1">
+									<span></span>
+								</span>
+								<div class="card-body">
+									<p>
+										Bartender Bootcamp - bartender education app using MERN
+										stack
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 p-3">
+						<div class="card bg-secondary">
+							<img
+								src="images/react-native-screenshot.PNG"
+								alt=""
+								class="card-img-top"
+							/>
+							<a
+								class="video-btn"
+								data-bs-toggle="modal"
+								data-bs-target="#videoModal"
+								data-bs-src="https://www.youtube.com/embed/XrG5tiEZ7MI"
+							>
+								<span class="video-play-button video1">
+									<span></span>
+								</span>
+								<div class="card-body">
+									<p>
+										Flash Card App - A React Native application to help
+										bartenders memorize cocktail recipies
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 p-3">
+						<div class="card bg-secondary">
+							<img
+								src="images/google-clone-screenshot.PNG"
+								alt=""
+								class="card-img-top"
+							/>
+							<a
+								class="video-btn"
+								data-bs-toggle="modal"
+								data-bs-target="#videoModal"
+								data-bs-src="https://www.youtube.com/embed/nu8lPOLwOzg"
+							>
+								<span class="video-play-button video1">
+									<span></span>
+								</span>
+								<div class="card-body">
+									<p>Google Calender Clone using TypeScript and React</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 mb-4 p-3">
+						<div class="card bg-secondary">
+							<img
+								src="images/nucamp-screenshot.PNG"
+								alt=""
+								class="card-img-top"
+							/>
+							<a
+								class="video-btn"
+								data-bs-toggle="modal"
+								data-bs-target="#videoModal"
+								data-bs-src="https://www.youtube.com/embed/zirqYs_iVYg"
+							>
+								<span class="video-play-button video1">
+									<span></span>
+								</span>
+								<div class="card-body">
+									<p>
+										Nucamp Campgrounds - a project from my coding bootcamp using
+										React and Redux
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 p-3">
+						<div class="card bg-secondary">
+							<img
+								src="images/proshop-screenshot.PNG"
+								alt=""
+								class="card-img-top"
+							/>
+							<a
+								class="video-btn"
+								data-bs-toggle="modal"
+								data-bs-target="#videoModal"
+								data-bs-src="https://www.youtube.com/embed/vnL1MRHOnNs"
+							>
+								<span class="video-play-button video1">
+									<span></span>
+								</span>
+								<div class="card-body">
+									<p>Proshop - An E-commerce store using the MERN stack</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 p-3">
+						<div class="card bg-secondary">
+							<img
+								src="images/yelpcamp-screenshot.PNG"
+								alt=""
+								class="card-img-top"
+							/>
+							<a
+								class="video-btn"
+								data-bs-toggle="modal"
+								data-bs-target="#videoModal"
+								data-bs-src="https://www.youtube.com/embed/wfDj6RsA5y0"
+							>
+								<span class="video-play-button video1">
+									<span></span>
+								</span>
+								<div class="card-body">
+									<p>
+										YelpCamp - Full Stack project with EJS, Node, and Express
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Video Modals -->
+			<div class="video-modal">
+				<div id="videoModal" class="modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="ratio ratio-16x9">
+								<iframe
+									frameborder="0"
+									class="embed-responsive-item"
+									id="video"
+								></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Certificates -->
+		<section id="projects" class="projects my-6">
+			<div class="container">
+				<div class="row mb-5">
+					<div
+						class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center"
+					>
+						<h1>
+							<span class="badge fw-bold bg-primary rounded-0 text-uppercase">
+								Certificate's
+							</span>
+						</h1>
+					</div>
+				</div>
+				<!-- Projects Row 1 -->
+				<div class="row">
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal1">
+								<img
+									src="images/uw-frontend-unofficial.PNG"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>UW PCE Front-End Development </strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal2">
+								<img
+									src="images/nucamp-frontend-screenshot.PNG"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>Nucamp Front-End Development</strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal3">
+								<img
+									src="images/nucamp-backend-screenshot.PNG"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>Nucamp Back-End Development</strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Projects Row 2 -->
+				<div class="row">
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal4">
+								<img
+									src="images/webdevsimplifiedreactscreenshot.PNG"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>WebDevSimplified React</strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal5">
+								<img
+									src="images/mern-from-scratch-screenshot.PNG"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>Full Stack MERN</strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal6">
+								<img
+									src="images/colt-steele-bootcamp.PNG"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>Web Developer Bootcamp</strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--Project's row 3 -->
+				<div class="row">
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal7">
+								<img
+									src="images/webDevSimplifiedTypeScriptCert.png"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>WebDevSimplified TypeScript</strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal8">
+								<img
+									src="images/react-with-typescript-certificate.png"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>React and TypeScript</strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal9">
+								<img
+									src="images/react-native-certificate.png"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>React Native - The Practical Guide 2024</strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--Project's row 4 -->
+				<!-- <div class="row">
+					<div class="col-md-4 mb-4">
+						<div class="card bg-secondary">
+							<a data-bs-toggle="modal" data-bs-target="#modal10">
+								<img
+									src="images/max-typescript-certificate.png"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body text-center">
+									<p>
+										<strong>React and TypeScript</strong>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+		<!-- Certificate Modals -->
+		<section id="project-modals">
+			<div class="project-modals">
+				<!-- Modal 1 -->
+				<div id="modal1" class="modal fade">
+					<div
+						class="modal-dialog modal-sm mt-7 d-flex flex-column align-items-center text-center"
+					>
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-10 offset-md-1">
+									<a href="images/uw-frontend-unofficial.PNG" target="_blank">
+										<img
+											src="images/uw-frontend-unofficial.PNG"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-10 offset-md-1 mt-3">
+									<h3>
+										HTML: Front-End Development with HTML, CSS & JavaScript
+									</h3>
+									<h4>
+										University of Washington Professional and Continuing
+										Education
+									</h4>
+									<ul class="list-unstyled">
+										<li>HTML, and CSS fundamentals</li>
+										<li>JavaScript programming basics</li>
+										<li>Introduction to APIs</li>
+										<li>Responsive web design concepts and methods</li>
+									</ul>
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 2 -->
+				<div id="modal2" class="modal fade">
+					<div
+						class="modal-dialog modal-sm mt-7 d-flex flex-column align-items-center text-center"
+					>
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-10 offset-md-1">
+									<a
+										href="images/nucamp-frontend-screenshot.PNG"
+										target="_blank"
+									>
+										<img
+											src="images/nucamp-frontend-screenshot.PNG"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-10 offset-md-1 mt-3">
+									<h3>Nucamp Front End Web and Mobile Development</h3>
+									<h4>Nucamp Coding Bootcamp</h4>
+									<ul class="list-unstyled">
+										<li>JavaScript Fundamentals</li>
+										<li>Web Development with React</li>
+										<li>Mobile Development with React Native</li>
+										<li>Google Cloud & Firebase</li>
+									</ul>
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 3 -->
+				<div id="modal3" class="modal fade">
+					<div
+						class="modal-dialog modal-sm mt-7 d-flex flex-column align-items-center text-center"
+					>
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-10 offset-md-1">
+									<a
+										href="images/nucamp-backend-screenshot.PNG"
+										target="_blank"
+									>
+										<img
+											src="images/nucamp-backend-screenshot.PNG"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-10 offset-md-1 mt-3">
+									<h3>Nucamp Front Full-stack Web and Mobile Development</h3>
+									<h4>Nucamp Coding Bootcamp</h4>
+									<ul class="list-unstyled">
+										<li>Node JS</li>
+										<li>Express</li>
+										<li>MongoDB w/ Mongoose</li>
+										<li>Google Cloud Storage for Firebase</li>
+									</ul>
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 4 -->
+				<div id="modal4" class="modal fade">
+					<div class="modal-dialog modal-lg mt-7">
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-6">
+									<a
+										href="images/webdevsimplifiedreactscreenshot.PNG"
+										target="_blank"
+									>
+										<img
+											src="images/webdevsimplifiedreactscreenshot.PNG"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="col-md-6">
+									<h3>WebDevSimplified React</h3>
+									<p></p>
+									<p>React Hooks and creating custom Hooks</p>
+									<p>Managing State with Context and useReducer</p>
+									<p>React Hook Form Library</p>
+									<p>Advanced Routing with Loaders</p>
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 5 -->
+				<div id="modal5" class="modal fade">
+					<div class="modal-dialog modal-lg mt-7">
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-6">
+									<a
+										href="images/mern-from-scratch-screenshot.PNG"
+										target="_blank"
+									>
+										<img
+											src="images/mern-from-scratch-screenshot.PNG"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="col-md-6">
+									<h3>Full Stack MERN</h3>
+									<p>
+										Build a custom eCommerce platform with React, Redux, Node,
+										Express & MongoDB
+									</p>
+									<p>Admin area to manage customers, products & orders</p>
+									<p>Product Search, Carousel, Pagination</p>
+									<p>
+										Full featured shopping cart with PayPal & credit/debit
+										payments
+									</p>
+									<p>Product Rating & Review System</p>
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 6 -->
+				<div id="modal6" class="modal fade">
+					<div class="modal-dialog modal-lg mt-7">
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-6">
+									<a href="images/colt-steele-bootcamp.PNG" target="_blank">
+										<img
+											src="images/colt-steele-bootcamp.PNG"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="col-md-6">
+									<h3>Web Developer Bootcamp</h3>
+									<p>
+										HTML, CSS3, Responsive Design, SemanticUI, Bootstrap 4 and
+										5, Bulma
+									</p>
+									<p>JavaScript (all 2022 modern syntax, ES6, ES2020, etc.),</p>
+									<p>Asynchronous JavaScript - Promises, async/await, etc.</p>
+									<p>DOM Manipulation</p>
+									<p>NodeJS, ExpressJS, REST</p>
+									<p>MongoDB, Schema Design, Mongoose</p>
+									<p>
+										Authentication From Scratch, Cookies & Sessions,
+										Authorization
+									</p>
+									<p>
+										Deploying Apps, Cloud Databases, Image Upload and Storage,
+										Maps and Geocoding
+									</p>
+
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 7 -->
+				<div id="modal7" class="modal fade">
+					<div class="modal-dialog modal-lg mt-7">
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-6">
+									<a
+										href="images/webDevSimplifiedTypeScriptCert.png"
+										target="_blank"
+									>
+										<img
+											src="images/webDevSimplifiedTypeScriptCert.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="col-md-6">
+									<h3>WebDevSimplified TypeScript</h3>
+									<p>Basic Types, Type Modifiers, Unions, Intersections</p>
+									<p>Advanced Types As Const, Enums, Tuples, Generics</p>
+									<p>Built In Types, Type Narrowing, Debugging</p>
+									<p>
+										React w/ TypeScript: PropTypes, Generic Components, using
+										Hooks w/ TypeScript
+									</p>
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal 8 -->
+				<div id="modal8" class="modal fade">
+					<div class="modal-dialog modal-lg mt-7">
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-6">
+									<a
+										href="images/react-with-typescript-certificate.png"
+										target="_blank"
+									>
+										<img
+											src="images/react-with-typescript-certificate.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="col-md-6">
+									<h3>React and TypeScript</h3>
+									<p>TypeScript Basics and Core Concepts</p>
+									<p>
+										Using Hooks w/ TypeScript, Type Predicates, TypeScripts'
+										Limitations
+									</p>
+									<p>Type-Safe State w/ Context API, useReducer, Zod library</p>
+									<p>DataFetching and Using Redux Toolkit w/ TypeScript</p>
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal 9 -->
+				<div id="modal9" class="modal fade">
+					<div class="modal-dialog modal-lg mt-7">
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-6">
+									<a href="images/react-native-certificate.png" target="_blank">
+										<img
+											src="images/react-native-certificate.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="col-md-6">
+									<h3>React Native - The Practical Guide 2024</h3>
+									<p>React Native Basics</p>
+									<p>Debugging React Native Apps</p>
+									<p>Building Adaptive User Interfaces</p>
+									<p>Navigation w/ React Navigation</p>
+									<p>App-wide State Management w/ Redux and Context API</p>
+									<p>User Authentication w/ Firebase</p>
+									<p>Using Native Device Features and Sqlite</p>
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal 10 -->
+				<!-- <div id="modal10" class="modal fade">
+					<div class="modal-dialog modal-lg mt-7">
+						<div class="modal-content bg-secondary p-5">
+							<div class="row">
+								<div class="col-md-6">
+									<a
+										href="images/max-typescript-certificate.png"
+										target="_blank"
+									>
+										<img
+											src="images/max-typescript-certificate.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="col-md-6">
+									<h3>React and TypeScript - The Practical Guide</h3>
+									<p>Dynamic Components, Polymorphic Components</p>
+									<p>Debugging React Native Apps</p>
+									<p>Building Adaptive User Interfaces</p>
+									<p>Navigation w/ React Navigation</p>
+									<p>App-wide State Management w/ Redux and Context API</p>
+									<p>User Authentication w/ Firebase</p>
+									<p>Using Native Device Features and Sqlite</p>
+									<button class="btn btn-light" data-bs-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+		<!-- Form Area -->
+		<section id="contact" class="contact my-7">
+			<div class="container">
+				<div class="row d-flex flex-column align-items-center text-center">
+					<div class="col-md-6">
+						<h2 class="fw-bold">Send me an email!</h2>
+						<hr class="hr-heading" />
+						<form action="https://formspree.io/f/xayrzlkj" method="POST">
+							<div class="mb-4">
+								<input
+									type="email"
+									class="form-control bg-secondary"
+									name="email"
+									placeholder="Enter email"
+								/>
+							</div>
+							<div class="mb-4">
+								<textarea
+									class="form-control bg-secondary"
+									name="message"
+									placeholder="message"
+								></textarea>
+							</div>
+							<div class="mb-4"></div>
+
+							<div class="d-grid gap-2">
+								<input
+									type="submit"
+									value="Submit"
+									class="btn btn-primary text-white"
+								/>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-5 offset-md-1"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer bg-secondary py-6">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 my-3 text-center">
+						<!-- <div class="mb-4">
+							<a
+								href="https://profile.indeed.com/p/michaelj-fikzrkp"
+								class="text-decoration-none"
+							>
+								<i class="fab fa-linkedin fa-3x text-light mx-2"></i>
+							</a>
+							<a href="#" class="text-decoration-none">
+								<i class="fab fa-twitter fa-3x text-light mx-2"></i>
+							</a>
+							<a href="#" class="text-decoration-none">
+								<i class="fab fa-instagram fa-3x text-light mx-2"></i>
+							</a>
+							<a href="#" class="text-decoration-none">
+								<i class="fab fa-pinterest fa-3x text-light mx-2"></i>
+							</a>
+						</div> -->
+						<p>
+							I would love to hear from you!
+							<a href="mailto:mwilliamkjarrett@gmail.com"
+								><strong>send me an email</strong></a
+							>
+						</p>
+						<p>
+							Or find me on
+							<a href="https://linkedin.com/in/michael-jarrett-334839228"
+								><strong>linkedin</strong></a
+							>
+							and
+							<a href="https://profile.indeed.com/p/michaelj-fikzrkp"
+								><strong>indeed</strong></a
+							>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/replaceme.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
